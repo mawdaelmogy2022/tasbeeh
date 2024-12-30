@@ -9,7 +9,7 @@ class Customchangecolor extends StatelessWidget {
     return InkWell(
                         onTap:action ,
                         child:  CircleAvatar(
-                          radius: 30,
+                          radius: 35,
                           backgroundColor: color,
                         ),
                       );

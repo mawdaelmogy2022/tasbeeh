@@ -17,18 +17,18 @@ class HomeCubit extends Cubit<HomeState> {
     emit(UpdateState());
   }
 
-  void changColorred() {
-    color = Colors.red;
+  void changColorbrown() {
+    color = Colors.brown;
     emit(UpdateState());
   }
 
-  void changColorgreen() {
-    color = Colors.green;
+  void changColororange() {
+    color = Color.fromARGB(255, 210, 101, 61);
     emit(UpdateState());
   }
 
-  void changColoryellow() {
-    color = Colors.yellow;
+  void changColorwhite() {
+    color = Colors.white;
     emit(UpdateState());
   }
 

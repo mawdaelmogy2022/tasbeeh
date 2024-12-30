@@ -13,6 +13,14 @@ class CustomDrawer extends StatelessWidget {
               child: ListView(
                 padding: const EdgeInsets.all(16),
                 children: [
+                Container(
+                  width: double.infinity,
+                  height: 200,
+                  decoration:  BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                  image:const DecorationImage(image: AssetImage('assets/images/WhatsApp Image 2024-12-30 at 11.00.15 AM.jpeg'),fit: BoxFit.fill),
+                ),),
+             const   SizedBox(height: 15,),
                   CustomDrawerComponent(
                       text: "لا حول ولا قوة الا بالله",
                       action: () {

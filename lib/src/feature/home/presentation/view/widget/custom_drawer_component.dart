@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/src/core/style/colors_app.dart';
 
 class CustomDrawerComponent extends StatelessWidget {
   const CustomDrawerComponent({super.key,required this.text,required this.action});
@@ -12,7 +13,7 @@ class CustomDrawerComponent extends StatelessWidget {
         width: 100,
         height: 50,
         decoration: BoxDecoration(
-            border: Border.all(color: Colors.purple, width: 2),
+            border: Border.all(color: ColorsApp.kprimaryColor, width: 2),
             borderRadius: BorderRadius.circular(16)),
         child:  Center(
             child: Text(
